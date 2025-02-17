@@ -22,7 +22,7 @@ const Cart = () => {
         </div>
         <Card.Body>
           <Card.Title>{product.title}</Card.Title>
-          <Card.Text>INR: {product.price}</Card.Text>
+          <Card.Text>NOK: {product.price}</Card.Text>
         </Card.Body>
         <Card.Footer style={{ backgroundColor: "white" }}>
           <Button variant="danger" onClick={() => removeFromCart(product.id)}>

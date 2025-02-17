@@ -17,7 +17,10 @@ const App = () => {
         <Route index element={<Dashboard />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
       </Route>
-    )
+    ),
+    {
+      basename: "/practice-redux-toolkit"
+    }
   );
   return (
     <div className="App">
